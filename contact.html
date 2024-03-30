@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+
+    <main>
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+        <div class="box box5">5</div>
+        <div class="box box6">6</div>
+    </main>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .box{
+            border: solid 1px black;
+            background-color: lightskyblue;
+            padding: 15px;
+        }
+
+        .box6{
+            position: fixed;
+            top: 50px;
+        }
+
+        .box3{
+            position: absolute;
+            bottom: 0;
+        }
+
+        .box4{
+            position: sticky;
+            top: 10px;
+        }
+        
+
+        main{
+            display: flex;
+            height: 70vh;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row-reverse;
+            background-color: lightcoral;
+            position: relative;
+        }
+
+        body{
+            height: 200vh;
+        }
+    </style>
+</body>
+</html>
